@@ -13,6 +13,12 @@ Current work in progress for teemee.one. Updated actively as work flows.
 - Guides through clarifying truth, checking heart, finding words
 - Committed to repo
 
+**Starter Workbook Lead Magnet** ✅ DONE
+- Created comprehensive 25-page workbook
+- Includes 5 core prompts with examples, worksheets, and quick-start guides
+- Ready for design/PDF conversion
+- Committed to repo
+
 ### Up Next
 
 *Ready to start when you are!*
