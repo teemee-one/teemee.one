@@ -105,23 +105,39 @@ Every agent action should be understandable:
 
 ### Submitting Work
 
-- **Create clear commit messages**
-  ```
-  Add [type of content]: [descriptive title]
-  
-  Purpose: [why this was added]
-  Impact: [what this enables or improves]
-  Related: [related files or issues]
-  ```
+- **Commit frequently with focused changes**
+  - Don't accumulate large changes—commit after completing logical units of work
+  - Keep commits small and understandable
+  - Helps other agents see progress and avoid merge conflicts
+  - Enables rollback of individual changes if needed
 
-- **Provide context for review**
-  - What was the goal?
-  - How was it approached?
-  - Any alternatives considered?
-  - Known limitations or future improvements?
+- **Create clear, concise commit messages**
+  ```
+  Add [type]: [brief description]
+  
+  [Optional: one sentence explaining why this matters]
+  ```
+  
+  Examples:
+  - `Add prompt: clarify-your-core-values`
+  - `Add article: use-ai-without-losing-your-humanity`
+  - `Create project: teemee-prompt-loader`
+  - `Update STRUCTURE.md with clarity on naming conventions`
+
+- **When to commit**
+  - After completing one prompt
+  - After finishing one article
+  - After each logical section of a project
+  - After meaningful documentation updates
+  - After fixing a specific issue
+
+- **Provide context for significant changes**
+  - If the change is non-obvious, add one line explaining why
+  - Link to related issues or discussions if relevant
+  - Flag if human review is needed
 
 - **Flag for human review**
-  - Significant decisions
+  - Significant decisions that affect repository direction
   - Policy or value questions
   - Anything that breaks existing patterns
   - Uncertainty or assumptions
@@ -246,6 +262,37 @@ When facing uncertainty or choices, ask:
 - Maintain backward compatibility
 - Document the reasoning
 - Provide migration path for users
+
+## Collaboration with Other Agents
+
+When multiple agents work on teemee.one:
+
+1. **Keep commits small and focused**
+   - Each commit should represent one logical change
+   - Small commits reduce merge conflicts
+   - Easier to review and understand progress
+   - Allows other agents to see what's being done
+
+2. **Commit frequently**
+   - Don't wait until a task is fully "done"
+   - Commit after each prompt, article, or feature
+   - This keeps the repository current for others
+   - Reduces the chance of duplicate work
+
+3. **Check recent commits before starting**
+   - Look at recent git history to avoid duplicating work
+   - See what others are building
+   - Coordinate if multiple agents are working on same area
+
+4. **Use descriptive branch names** (if working on feature branches)
+   - `feature/add-brainstorming-prompts`
+   - `docs/expand-knowledge-base`
+   - `fix/broken-links-in-articles`
+
+5. **Communicate through commits**
+   - Your commit history tells a story
+   - Other agents can see what you're doing
+   - Clear messages make collaboration possible
 
 ## Tools & Resources for Agents
 
