@@ -12,14 +12,6 @@ teemee.one/
 ├── STRUCTURE.md          # This file
 ├── LICENSE               # MIT License
 │
-├── prompts/              # AI prompts organized by use case
-│   ├── writing/
-│   ├── analysis/
-│   ├── coding/
-│   ├── creativity/
-│   ├── research/
-│   └── README.md         # Prompts catalog and guide
-│
 ├── projects/             # Open-source tools and experiments
 │   ├── home/             # Official teemee.one website (Next.js)
 │   │   ├── README.md
@@ -38,6 +30,13 @@ teemee.one/
 │   │   ├── content/      # Content creation (articles, graphics, videos, social)
 │   │   ├── tools/        # Content creation tools strategy
 │   │   └── web/          # Web presence configuration
+│   ├── prompts/              # AI prompts organized by use case
+│   |   ├── writing/
+│   |   ├── analysis/
+│   |   ├── coding/
+│   |   ├── creativity/
+│   |   ├── research/
+│   │   └── README.md         # Prompts catalog and guide
 │   └── README.md         # Projects index and guidelines
 │
 ├── knowledge-base/       # Articles, research, insights
