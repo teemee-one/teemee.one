@@ -1,23 +1,51 @@
 # Projects
 
-This directory contains open-source projects, tools, and experiments built with or for AI.
+This directory contains open-source projects, tools, and experiments built with or for teemee.one.
 
-## What's Here
+## Current Projects
+
+### [home](./home/)
+The official teemee.one website built with Next.js. Features:
+- Modern, responsive design with Tailwind CSS
+- 5 main pages: Home, Philosophy, Prompts, Projects, Contribute
+- Dark mode support
+- Static export for Netlify deployment
+- SEO optimized with proper metadata
+
+**Tech:** Next.js 14, React 18, Tailwind CSS, TypeScript
+
+### [teemee-prompt-loader](./teemee-prompt-loader/)
+A Python tool for loading and using teemee.one prompts programmatically.
+- Load prompts from the repository
+- Search and filter capabilities
+- Integration examples for Claude and OpenAI
+
+**Tech:** Python
+
+### [promotion](./promotion/)
+Promotion and marketing infrastructure for teemee.one.
+- Content strategy and calendar
+- Tools planning and roadmap
+- Multi-channel content distribution framework
+- Website and social media guidelines
+
+## What Projects Look Like
 
 Each project is a complete, self-contained tool designed to:
 - Solve real problems
-- Demonstrate AI capabilities
+- Demonstrate teemee.one capabilities
 - Experiment with new ideas
 - Support the teemee.one community
 
-## Exploring Projects
+## Project Structure
 
-Each project has its own:
+Each project has:
 - **README.md** - Overview, installation, and usage
 - **docs/** - Detailed documentation
 - **src/** or equivalent - Source code
-- **tests/** - Test suite
 - **LICENSE** - License (compatible with teemee.one's MIT license)
+- **DEPLOYMENT.md** (web projects) - Deployment instructions
+- **netlify.toml** (web projects) - Deployment configuration
 
 ## Project Standards
 

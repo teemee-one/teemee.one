@@ -21,13 +21,24 @@ teemee.one/
 │   └── README.md         # Prompts catalog and guide
 │
 ├── projects/             # Open-source tools and experiments
-│   ├── project-name/
+│   ├── home/             # Official teemee.one website (Next.js)
 │   │   ├── README.md
 │   │   ├── src/
 │   │   ├── docs/
-│   │   ├── tests/
+│   │   ├── netlify.toml
+│   │   └── DEPLOYMENT.md
+│   ├── teemee-prompt-loader/  # Python tool for loading prompts
+│   │   ├── README.md
+│   │   ├── src/
+│   │   ├── docs/
 │   │   └── LICENSE
-│   └── README.md         # Projects index
+│   ├── promotion/        # Promotion and marketing infrastructure
+│   │   ├── README.md
+│   │   ├── OVERVIEW.md
+│   │   ├── content/      # Content creation (articles, graphics, videos, social)
+│   │   ├── tools/        # Content creation tools strategy
+│   │   └── web/          # Web presence configuration
+│   └── README.md         # Projects index and guidelines
 │
 ├── knowledge-base/       # Articles, research, insights
 │   ├── articles/
@@ -102,27 +113,33 @@ Each prompt should be a markdown file with:
 
 ### `/projects`
 
-Open-source projects, tools, and experiments built with or for AI.
+Open-source projects, tools, and experiments that extend or support teemee.one.
 
-**Requirements for Projects:**
-- Comprehensive README
-- Installation and setup instructions
-- Usage examples
-- Tests (where applicable)
-- License (compatible with teemee.one's MIT license)
+**Current Projects:**
+
+**home/** - Official teemee.one website
+- Framework: Next.js 14 with static export
+- Purpose: Showcase teemee.one philosophy, prompts, projects, and invite participation
+- Features: Responsive design, dark mode, SEO optimized
+- Deployment: Netlify (see DEPLOYMENT.md)
+
+**teemee-prompt-loader/** - Prompt management tool
+- Framework: Python
+- Purpose: Load and use teemee.one prompts programmatically
+- Integration: Claude, OpenAI, LangChain compatible
+
+**promotion/** - Marketing and content infrastructure
+- Purpose: Multi-channel content strategy and distribution
+- Includes: Content calendar, tools roadmap, social media guidelines
+- Structure: Separate concerns for content creation, tools, and web
+
+**Requirements for New Projects:**
+- Comprehensive README with setup instructions
+- Usage examples and getting started guide
+- License (MIT or compatible)
 - Documentation in `/docs`
-
-**Example Project Structure:**
-```
-projects/my-tool/
-├── README.md
-├── LICENSE
-├── src/
-├── tests/
-├── docs/
-├── requirements.txt (or package.json, etc.)
-└── CONTRIBUTING.md (optional, if allowing sub-contributions)
-```
+- Tests (where applicable)
+- Clear project purpose aligned with teemee.one intentions
 
 ### `/knowledge-base`
 
