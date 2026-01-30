@@ -642,7 +642,7 @@ Consider making these commitments:
 - How can we improve this workbook?
 
 **Reach us:**
-- Email: hello@teemee.one
+- Email: grow@teemee.one
 - Community: teemee.one/community
 - Feedback form: teemee.one/feedback
 
